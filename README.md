@@ -43,7 +43,8 @@ A browser window will open which launches the app
 
 ## Method
 
-We will use the FastAI API to preprocess the data and build our model
+- We will use the FastAI API to preprocess the data and build our model.
+- We use the full HAM_10000 dataset containing 10057 images for training and validation of which 15% is reserved for the validation set
 
 ### Preprocessing : 
 #### Upsampling
@@ -53,12 +54,13 @@ We will use the FastAI API to preprocess the data and build our model
   We upsample with random crop and random resize 
   
 ### Training:
-We make use of the xceptionnet pretrained model.
-We determine a good learning rate by choosing the valley in the learning rate curve. 
-We unfreeze the weights of the model and train it on the HAM10000 dataset in 24 epochs
+
+- We make use of the xceptionnet pretrained model
+- We determine a good learning rate by choosing the valley in the learning rate curve
+- We unfreeze the weights of the model and train it on the HAM10000 dataset in 24 epochs
 
 ### Validation
-We validate the model by plotting the confusion matrix and the loss on both training and validation set.
+- We validate the model by plotting the confusion matrix and the loss on both training and validation set.
 
 # Results
 
@@ -70,12 +72,11 @@ The model shows the following results
 | True Negatives | 76.78% |
 | False Negatives | 7.09% |
 
-- For the client app we made a simple tool to produce results with telegram. The results of processing a file will be output to a Telegram bot channel.
  
 # Improvements
  
-We worked on data preprocessing methods such as contrast, rebalancing and hair removal, which are not included nor used for the scope of htis project.
-We did not include other methods 
+We worked on data preprocessing methods such as contrast, rebalancing and hair removal, which are not included nor used for the scope of this project.<br>
+
 
 ## Contributors 
 - [Frank Trioen](https://github.com/Francode77) 
