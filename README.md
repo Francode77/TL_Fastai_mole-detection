@@ -37,7 +37,7 @@ This repo makes use of the HAM10000 dataset to train a model.
 2) To launch the app, type in the base folder
 
 `streamlit run mole_detection_app.py`
-<br>
+<br><br>
 A browser window will open which launches the app
 
 ## Method
