@@ -7,11 +7,11 @@ We aim to identify malign and bening moles with a user-friendly prediction appli
  
 We create a model from a pretrained model by re-training it with our image data. We then use a streamlit application to show predictions in a user-friendly interface.
 
-# Prerequisites
+## Prerequisites
 
 This repo makes use of the HAM10000 dataset to train a model.
 
-# Includes
+## Includes
  
 ### Model 
 
@@ -21,36 +21,35 @@ This repo makes use of the HAM10000 dataset to train a model.
  
  - mole_detection_app.py
  
-# Requirements
+## Requirements
   
   - Python 3.7.9
   - CUDA and CuNN 
   - Streamlit
 
-# Installation
+## Installation
 
  - Create and activate a virtual env
  - Install the necessary libraries from the requirements.txt file in the main folder 
 `
-# Usage 
+## Usage 
 
 1) To create a model, run all the files in the notebook 
 2) To launch the app, type in the base folder
 
 `streamlit run mole_detection_app.py`
-A browser window will open with the app
-There you can show 
+<br>
+A browser window will open which launches the app
 
-# Method
+## Method
 
 We will use the FastAI API to preprocess the data and build our model
 
 ### Preprocessing : 
-Upsampling
-Visual augmentation
+#### Upsampling
+- Visual augmentation<br>
   We create 8 variations of any image (8 dihedral transformations) and add this to the dataset to increase the diversity of the image set
-  
-Data augmentation
+- Data augmentation<br>
   We upsample with random crop and random resize 
   
 ### Training:
