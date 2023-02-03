@@ -24,7 +24,7 @@ This repo makes use of the HAM10000 dataset to train a model.
 ## Requirements
   
   - Python 3.7.9
-  - CUDA and CuNN  
+  - CUDA 11.7 and CudNN  
 
 ## Installation
 
