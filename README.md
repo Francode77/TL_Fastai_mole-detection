@@ -1,9 +1,9 @@
 # Mole detection 
 
-## Scope:
+## Scopz
 We aim to identify malign and bening moles with a user-friendly prediction application.
 
-## Project Description:
+## Project Description
  
 We create a model from a pretrained model by re-training it with our image data. We then use a streamlit application to show predictions in a user-friendly interface.
 
