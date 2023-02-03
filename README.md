@@ -1,6 +1,6 @@
 # Mole detection 
 
-## Scopz
+## Scope
 We aim to identify malign and bening moles with a user-friendly prediction application.
 
 ## Project Description
@@ -71,7 +71,9 @@ The model shows the following results
 | True Negatives | 76.78% |
 | False Negatives | 7.09% |
 
- 
+Precision = 75.8%
+Recall = 63.3%
+
 # Improvements
  
 We worked on data preprocessing methods such as contrast, rebalancing and hair removal, which are not included nor used for the scope of this project.<br>
