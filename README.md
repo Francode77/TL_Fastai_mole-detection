@@ -70,9 +70,9 @@ The model shows the following results
 | False Positives | 3.89% |
 | True Negatives | 76.78% |
 | False Negatives | 7.09% |
-
-Precision = 75.8%
-Recall = 63.3%
+| :---------- | :----- |
+| Precision | 75.8% |
+| Recall | 63.3% | 
 
 # Improvements
  
