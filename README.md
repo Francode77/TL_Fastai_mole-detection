@@ -64,7 +64,7 @@ We validate the model by plotting the confusion matrix and the loss on both trai
 # Results
 
 The model shows the following results
-
+| :--------- | ----------: |
 | True Positives | 12.23% |
 | False Positives | 3.89% |
 | True Negatives | 76.78% |
