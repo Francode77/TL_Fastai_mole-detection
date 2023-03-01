@@ -1,4 +1,4 @@
-# Mole detection 
+# FastAI for Mole detection 
 
 ## Scope
 We aim to identify malign and bening moles with a user-friendly prediction application.
