@@ -1,4 +1,4 @@
-# FastAI for mole detection 
+# FastAI - Transfer learning for mole detection 
 
 ## Scope
 We aim to identify malign and bening moles with a user-friendly prediction application. This is a slimmed-down version of the original repository. 
