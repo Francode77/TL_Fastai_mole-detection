@@ -1,7 +1,7 @@
 # FastAI for mole detection 
 
 ## Scope
-We aim to identify malign and bening moles with a user-friendly prediction application.
+We aim to identify malign and bening moles with a user-friendly prediction application. This is a slimmed-down version of the original repository. 
 
 ## Project Description
  
